@@ -1,0 +1,52 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a box-sizing border-box model for all elements */
+* {
+    box-sizing: border-box;
+}
+
+header {
+    
+    color: white;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav {
+    flex: 1; /* This allows the nav to take up all available space */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; /* Align the list items to the end of the container */
+}
+
+nav ul li {
+    margin-left: 20px; /* Add spacing between list items */
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ddd;
+}
