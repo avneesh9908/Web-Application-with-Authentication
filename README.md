@@ -4,22 +4,25 @@ This project is a full-featured MERN (MongoDB, Express.js, React.js, Node.js) st
 
 ## Project Structure
 .
-├── client # React frontend
-│ ├── public
-│ ├── src
-│ ├── .gitignore
-│ ├── package.json
-│ └── README.md
-├── server # Express backend
-│ ├── config
-│ ├── controllers
-│ ├── models
-│ ├── routes
-│ ├── .gitignore
-│ ├── package.json
-│ └── README.md
-├── .gitignore
-└── README.md
+1. client # React frontend
+    public
+    src
+   .gitignore
+   package.json
+   README.md
+2. server # Express backend
+    config
+    controllers
+    models
+   DB(database connection)
+   models
+   authenication
+    routes
+    .gitignore
+    package.json
+    README.md
+   .gitignore
+    README.md
 
 ## 1. Technologies Used
 
